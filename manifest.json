@@ -1,0 +1,17 @@
+{
+    "name": "Bookmark clearer",
+    "description": "Clear open tabs from all bookmarks",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Bookmark clearer"
+    },
+    "permissions": [
+        "tabs",
+        "bookmarks",
+        "contextMenus"
+    ]
+}
